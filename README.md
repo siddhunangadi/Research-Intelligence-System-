@@ -933,6 +933,3 @@ These concepts represent opportunities for future development:
 
 ---
 
-# Final Interview One-Liner
-
-> "I engineered a production-grade Research Intelligence System for parsing and querying scientific papers, featuring page-level layout routing (using Docling and Nougat), section-aware chunking, hybrid BM25/Dense retrieval integrated via Reciprocal Rank Fusion, Cross-Encoder reranking, and an NLI validation layer (DeBERTa) that mathematically verifies citation grounding, backed by a continuous evaluation pipeline (RAGAS) acting as a CI/CD build quality gate."
