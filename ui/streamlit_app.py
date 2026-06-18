@@ -117,9 +117,9 @@ with right:
         from database.connection import DatabaseConnectionManager
         with DatabaseConnectionManager().get_session() as s:
             s.execute(__import__("sqlalchemy").text("SELECT 1"))
-        services.append(("SQLite Metadata Store",  "Active",        "#10b981"))
+        services.append(("Metadata Database",  "Active",        "#10b981"))
     except Exception:
-        services.append(("SQLite Metadata Store",  "Error",         "#ef4444"))
+        services.append(("Metadata Database",  "Error",         "#ef4444"))
 
     try:
         import chromadb
