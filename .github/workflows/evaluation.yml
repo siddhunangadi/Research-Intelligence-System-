@@ -1,0 +1,67 @@
+name: RAG Evaluation Quality Gate
+
+on:
+  push:
+    branches: [ main, master, develop ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install transformers torch ragas pytest
+
+      - name: Run Pipeline Validation Tests
+        run: |
+          # Executes integration pipeline checks
+          python workflows/full_pipeline.py
+
+      - name: Run Evaluation Suite
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          DATABASE_URL: ${{ secrets.DATABASE_TEST_URL }}
+        run: |
+          # Runs metrics parser against golden Q&A dataset
+          python evaluation/ragas_runner.py
+
+      - name: Validate Semantic Quality Gate
+        run: |
+          python -c "
+          import json, sys
+          try:
+              with open('results.json') as f:
+                  data = json.load(f)
+          except Exception as e:
+              print(f'ERROR: Failed to load results.json: {e}')
+              sys.exit(1)
+          
+          faithfulness = data.get('metrics', {}).get('faithfulness', 0)
+          context_precision = data.get('metrics', {}).get('context_precision', 0)
+          
+          print(f'Evaluated Faithfulness: {faithfulness:.4f}')
+          print(f'Evaluated Context Precision: {context_precision:.4f}')
+          
+          # SLA threshold gates
+          if faithfulness < 0.85:
+              print('ERROR: Faithfulness score is below the 0.85 SLA threshold.')
+              sys.exit(1)
+          if context_precision < 0.80:
+              print('ERROR: Context Precision is below the 0.80 threshold.')
+              sys.exit(1)
+              
+          print('Build Quality Gate Passed successfully.')
+          "

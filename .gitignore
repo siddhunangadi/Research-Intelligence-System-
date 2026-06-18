@@ -1,0 +1,37 @@
+# Python bytecode/caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Databases & local storage
+data/raw_papers/*
+data/processed_papers/*
+data/extracted_tables/*
+data/embeddings/*
+chroma_db/
+postgres_data/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test/Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/

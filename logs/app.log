@@ -1,0 +1,622 @@
+[2026-06-18 08:41:17,856] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 08:41:17,859] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 08:41:17,859] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 08:41:17,913] [INFO] [latency_tracker:30] - [test_cm] execution time: 52.86 ms
+[2026-06-18 08:41:17,946] [INFO] [latency_tracker:30] - [test_decorator] execution time: 33.54 ms
+[2026-06-18 08:41:17,957] [INFO] [database.connection:34] - Initializing PostgreSQL database engine pool...
+[2026-06-18 08:41:17,968] [WARNING] [database.connection:45] - Failed to load PostgreSQL driver or connect (Invalid argument(s) 'max_overflow' sent to create_engine(), using configuration SQLiteDialect_pysqlite/SingletonThreadPool/Engine.  Please check that the keyword arguments are appropriate for this combination of components.). Falling back to SQLite in-memory database.
+[2026-06-18 08:41:17,968] [INFO] [database.connection:58] - Database connection factory initialized successfully.
+[2026-06-18 08:41:17,972] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 08:41:17,972] [INFO] [query_tracker:35] - Query Telemetry: ID=q_afdc416338d7 | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 08:41:18,306] [DEBUG] [langsmith.utils:180] - LangSmith tracing is not enabled, returning original function.
+[2026-06-18 08:41:25,076] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 08:41:25,077] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 08:41:25,077] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 08:41:25,133] [INFO] [latency_tracker:30] - [test_cm] execution time: 55.05 ms
+[2026-06-18 08:41:25,166] [INFO] [latency_tracker:30] - [test_decorator] execution time: 33.68 ms
+[2026-06-18 08:41:25,175] [INFO] [database.connection:35] - Configuring SQLite database engine...
+[2026-06-18 08:41:25,185] [INFO] [database.connection:66] - Database connection factory initialized successfully.
+[2026-06-18 08:41:25,188] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 08:41:25,188] [INFO] [query_tracker:35] - Query Telemetry: ID=q_2d477d175e8b | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 08:41:25,480] [DEBUG] [langsmith.utils:180] - LangSmith tracing is not enabled, returning original function.
+[2026-06-18 08:42:24,437] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 08:42:24,441] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 08:42:24,441] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 08:42:24,496] [INFO] [latency_tracker:30] - [test_cm] execution time: 54.19 ms
+[2026-06-18 08:42:24,530] [INFO] [latency_tracker:30] - [test_decorator] execution time: 34.18 ms
+[2026-06-18 08:42:24,537] [INFO] [database.connection:35] - Configuring SQLite database engine...
+[2026-06-18 08:42:24,545] [INFO] [database.connection:66] - Database connection factory initialized successfully.
+[2026-06-18 08:42:24,548] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 08:42:24,549] [INFO] [query_tracker:35] - Query Telemetry: ID=q_699186af6eb4 | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 08:42:24,834] [DEBUG] [langsmith.utils:180] - LangSmith tracing is not enabled, returning original function.
+[2026-06-18 08:46:26,904] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 08:46:26,906] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 08:46:26,906] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 08:46:26,961] [INFO] [latency_tracker:30] - [test_cm] execution time: 55.03 ms
+[2026-06-18 08:46:26,996] [INFO] [latency_tracker:30] - [test_decorator] execution time: 35.02 ms
+[2026-06-18 08:46:27,004] [INFO] [database.connection:35] - Configuring SQLite database engine...
+[2026-06-18 08:46:27,012] [INFO] [database.connection:66] - Database connection factory initialized successfully.
+[2026-06-18 08:46:27,016] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 08:46:27,016] [INFO] [query_tracker:35] - Query Telemetry: ID=q_cc865c69b08b | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 08:46:27,305] [DEBUG] [langsmith.utils:180] - LangSmith tracing is not enabled, returning original function.
+[2026-06-18 08:53:13,479] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 08:53:13,481] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 08:53:13,481] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 08:53:13,537] [INFO] [latency_tracker:30] - [test_cm] execution time: 55.05 ms
+[2026-06-18 08:53:13,572] [INFO] [latency_tracker:30] - [test_decorator] execution time: 35.01 ms
+[2026-06-18 08:53:13,581] [INFO] [database.connection:41] - Initializing PostgreSQL database engine pool...
+[2026-06-18 08:53:13,624] [WARNING] [database.connection:52] - Failed to load database driver or connect (No module named 'psycopg2'). Falling back to SQLite in-memory database.
+[2026-06-18 08:53:13,634] [INFO] [database.connection:66] - Database connection factory initialized successfully.
+[2026-06-18 08:53:13,662] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 08:53:13,663] [INFO] [query_tracker:35] - Query Telemetry: ID=q_e40d796a7fbd | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 08:53:13,870] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 08:53:13,931] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 08:53:13,958] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 08:53:14,287] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 08:53:14,292] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 08:53:14,292] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 08:53:14,293] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 08:53:14,320] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 08:53:14,323] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 08:53:14,323] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 08:53:14,323] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 08:53:14,325] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=8f272f0c-cfe1-4da8-bc92-482a6c92430d,id=8f272f0c-cfe1-4da8-bc92-482a6c92430d
+[2026-06-18 08:53:14,346] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 08:53:14,347] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 08:53:14,378] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 08:53:14,379] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 08:53:14,627] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 08:53:14,645] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 08:53:14,646] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 08:53:14,646] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 08:53:14,647] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 08:53:14,648] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 08:53:14,648] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 08:53:52,440] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 08:53:52,442] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 08:53:52,442] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 08:53:52,496] [INFO] [latency_tracker:30] - [test_cm] execution time: 53.13 ms
+[2026-06-18 08:53:52,530] [INFO] [latency_tracker:30] - [test_decorator] execution time: 33.77 ms
+[2026-06-18 08:53:52,538] [INFO] [database.connection:41] - Initializing PostgreSQL database engine pool...
+[2026-06-18 08:53:52,561] [WARNING] [database.connection:52] - Failed to load database driver or connect (No module named 'psycopg2'). Falling back to SQLite in-memory database.
+[2026-06-18 08:53:52,566] [INFO] [database.connection:66] - Database connection factory initialized successfully.
+[2026-06-18 08:53:52,569] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 08:53:52,569] [INFO] [query_tracker:35] - Query Telemetry: ID=q_57e4e2a998f9 | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 08:53:52,759] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 08:53:52,779] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 08:53:52,841] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 08:53:53,141] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 08:53:53,144] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 08:53:53,144] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 08:53:53,145] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 08:53:53,197] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 08:53:53,198] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 08:53:53,200] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 08:53:53,203] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 08:53:53,203] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 08:53:53,203] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 08:53:53,204] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=4d08dfaa-48f0-41a8-a053-7c7e54c23aae,id=4d08dfaa-48f0-41a8-a053-7c7e54c23aae
+[2026-06-18 08:53:53,254] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 08:53:53,255] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 08:53:53,534] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 08:53:53,553] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 08:53:53,553] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 08:53:53,553] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 08:53:53,554] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 08:53:53,555] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 08:53:53,556] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 08:54:20,883] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 08:54:20,885] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 08:54:20,885] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 08:54:20,941] [INFO] [latency_tracker:30] - [test_cm] execution time: 55.04 ms
+[2026-06-18 08:54:20,976] [INFO] [latency_tracker:30] - [test_decorator] execution time: 35.03 ms
+[2026-06-18 08:54:20,985] [INFO] [database.connection:41] - Initializing PostgreSQL database engine pool...
+[2026-06-18 08:54:21,007] [WARNING] [database.connection:52] - Failed to load database driver or connect (No module named 'psycopg2'). Falling back to SQLite in-memory database.
+[2026-06-18 08:54:21,012] [INFO] [database.connection:66] - Database connection factory initialized successfully.
+[2026-06-18 08:54:21,016] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 08:54:21,016] [INFO] [query_tracker:35] - Query Telemetry: ID=q_144c93baa684 | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 08:54:21,205] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 08:54:21,225] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 08:54:21,282] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 08:54:21,593] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 08:54:21,600] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 08:54:21,600] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 08:54:21,600] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 08:54:21,630] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 08:54:21,633] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 08:54:21,633] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 08:54:21,633] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 08:54:21,634] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=5cb78558-5f3d-4a05-875c-4931bf23570d,id=5cb78558-5f3d-4a05-875c-4931bf23570d
+[2026-06-18 08:54:21,655] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 08:54:21,656] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 08:54:21,684] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 08:54:21,684] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 08:54:21,925] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 08:54:21,940] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 08:54:21,940] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 08:54:21,940] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 08:54:21,941] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 08:54:21,942] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 08:54:21,942] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:04:46,900] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 09:04:46,902] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 09:04:46,902] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 09:04:46,958] [INFO] [latency_tracker:30] - [test_cm] execution time: 55.02 ms
+[2026-06-18 09:04:46,992] [INFO] [latency_tracker:30] - [test_decorator] execution time: 34.16 ms
+[2026-06-18 09:04:47,001] [INFO] [database.connection:42] - Initializing PostgreSQL database engine pool...
+[2026-06-18 09:04:47,020] [WARNING] [database.connection:53] - Failed to load database driver or connect (No module named 'psycopg2'). Falling back to SQLite file database at data/metadata.db.
+[2026-06-18 09:04:47,025] [INFO] [database.connection:72] - Database connection factory initialized successfully.
+[2026-06-18 09:04:47,028] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 09:04:47,028] [INFO] [query_tracker:35] - Query Telemetry: ID=q_c5f26faaf8e0 | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 09:04:47,243] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 09:04:47,266] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:04:47,349] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:04:47,626] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:04:47,631] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:04:47,631] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:04:47,632] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:04:47,685] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:04:47,686] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:04:47,694] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:04:47,694] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:04:47,694] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:04:47,694] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 09:04:47,695] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=fa618e00-39ba-4cd0-abac-93f35740db24,id=fa618e00-39ba-4cd0-abac-93f35740db24
+[2026-06-18 09:04:47,746] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:04:47,747] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:04:47,990] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 09:04:47,999] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 09:04:47,999] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:04:47,999] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:04:47,999] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:04:48,000] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:04:48,000] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:05:13,098] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 09:05:13,100] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 09:05:13,100] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 09:05:13,151] [INFO] [latency_tracker:30] - [test_cm] execution time: 50.77 ms
+[2026-06-18 09:05:13,186] [INFO] [latency_tracker:30] - [test_decorator] execution time: 35.02 ms
+[2026-06-18 09:05:13,193] [INFO] [database.connection:42] - Initializing PostgreSQL database engine pool...
+[2026-06-18 09:05:13,213] [WARNING] [database.connection:53] - Failed to load database driver or connect (No module named 'psycopg2'). Falling back to SQLite file database at data/metadata.db.
+[2026-06-18 09:05:13,218] [INFO] [database.connection:72] - Database connection factory initialized successfully.
+[2026-06-18 09:05:13,221] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 09:05:13,221] [INFO] [query_tracker:35] - Query Telemetry: ID=q_81eb7b78c88b | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 09:05:13,430] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 09:05:13,502] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:05:13,588] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:05:13,855] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:05:13,857] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:05:13,857] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:05:13,857] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:05:13,910] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:05:13,910] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:05:13,950] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:05:13,951] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:05:13,951] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:05:13,951] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 09:05:13,951] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=aceb94aa-0596-4919-9ba2-79542e58d326,id=aceb94aa-0596-4919-9ba2-79542e58d326
+[2026-06-18 09:05:14,005] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:05:14,006] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:05:14,246] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 09:05:14,264] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 09:05:14,265] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:05:14,266] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:05:14,267] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:05:14,269] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:05:14,269] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:05:31,971] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 09:05:31,974] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 09:05:31,974] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 09:05:32,030] [INFO] [latency_tracker:30] - [test_cm] execution time: 54.95 ms
+[2026-06-18 09:05:32,064] [INFO] [latency_tracker:30] - [test_decorator] execution time: 34.05 ms
+[2026-06-18 09:05:32,073] [INFO] [database.connection:35] - Configuring SQLite database engine...
+[2026-06-18 09:05:32,090] [INFO] [database.connection:72] - Database connection factory initialized successfully.
+[2026-06-18 09:05:32,096] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 09:05:32,096] [INFO] [query_tracker:35] - Query Telemetry: ID=q_adca820465a3 | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 09:05:32,978] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 09:05:33,028] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:05:33,264] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:05:33,505] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:05:33,506] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:05:33,506] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:05:33,506] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:05:33,558] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:05:33,558] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:05:33,606] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:05:33,660] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:05:33,660] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:05:33,661] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 09:05:33,662] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=21a5ed5f-d617-4b5d-ac66-cd42151b6481,id=21a5ed5f-d617-4b5d-ac66-cd42151b6481
+[2026-06-18 09:05:33,713] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:05:33,714] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:05:33,949] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 09:05:33,967] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 09:05:33,967] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:05:33,967] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:05:33,968] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:05:33,969] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:05:33,969] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:09:19,599] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 09:09:19,601] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 09:09:19,601] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 09:09:19,657] [INFO] [latency_tracker:30] - [test_cm] execution time: 54.61 ms
+[2026-06-18 09:09:19,688] [INFO] [latency_tracker:30] - [test_decorator] execution time: 31.08 ms
+[2026-06-18 09:09:19,695] [INFO] [database.connection:35] - Configuring SQLite database engine...
+[2026-06-18 09:09:19,701] [INFO] [database.connection:72] - Database connection factory initialized successfully.
+[2026-06-18 09:09:19,704] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 09:09:19,704] [INFO] [query_tracker:35] - Query Telemetry: ID=q_6913513578f8 | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 09:09:19,918] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 09:09:19,931] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:09:20,009] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:09:20,294] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:09:20,297] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:09:20,297] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:09:20,297] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:09:20,352] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:09:20,352] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:09:20,357] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:09:20,357] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:09:20,358] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:09:20,358] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 09:09:20,358] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=c26ce894-acf3-44bc-8e70-e833eef7af93,id=c26ce894-acf3-44bc-8e70-e833eef7af93
+[2026-06-18 09:09:20,413] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:09:20,413] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:09:20,651] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 09:09:20,660] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 09:09:20,660] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:09:20,660] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:09:20,661] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:09:20,661] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:09:20,661] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:22:10,387] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 09:22:10,389] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 09:22:10,389] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 09:22:10,445] [INFO] [latency_tracker:30] - [test_cm] execution time: 54.87 ms
+[2026-06-18 09:22:10,476] [INFO] [latency_tracker:30] - [test_decorator] execution time: 30.98 ms
+[2026-06-18 09:22:10,483] [INFO] [database.connection:35] - Configuring SQLite database engine...
+[2026-06-18 09:22:10,492] [INFO] [database.connection:72] - Database connection factory initialized successfully.
+[2026-06-18 09:22:10,495] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 09:22:10,495] [INFO] [query_tracker:35] - Query Telemetry: ID=q_6d1b0e673f82 | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 09:22:10,715] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 09:22:10,724] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:22:10,806] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:22:11,132] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:22:11,134] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:22:11,134] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:22:11,134] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:22:11,164] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:22:11,165] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:22:11,165] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:22:11,165] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 09:22:11,166] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=2b0225a6-e7ec-4f1d-9eb1-e75cfa9175d0,id=2b0225a6-e7ec-4f1d-9eb1-e75cfa9175d0
+[2026-06-18 09:22:11,189] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:22:11,189] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:22:11,217] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:22:11,217] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:22:11,541] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 09:22:11,553] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 09:22:11,553] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:22:11,554] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:22:11,555] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:22:11,556] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:22:11,556] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:23:40,798] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 09:23:40,800] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 09:23:40,800] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 09:23:40,856] [INFO] [latency_tracker:30] - [test_cm] execution time: 55.02 ms
+[2026-06-18 09:23:40,887] [INFO] [latency_tracker:30] - [test_decorator] execution time: 31.07 ms
+[2026-06-18 09:23:40,893] [INFO] [database.connection:35] - Configuring SQLite database engine...
+[2026-06-18 09:23:40,899] [INFO] [database.connection:72] - Database connection factory initialized successfully.
+[2026-06-18 09:23:40,902] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 09:23:40,902] [INFO] [query_tracker:35] - Query Telemetry: ID=q_64d58bf882e2 | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 09:23:41,110] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 09:23:41,121] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:23:41,215] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:23:41,518] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:23:41,519] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:23:41,520] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:23:41,520] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:23:41,572] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:23:41,573] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:23:41,587] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:23:41,587] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:23:41,588] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:23:41,588] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 09:23:41,588] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=4298b417-a0c1-4667-9a94-3cb66a61ced8,id=4298b417-a0c1-4667-9a94-3cb66a61ced8
+[2026-06-18 09:23:41,642] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:23:41,643] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:23:41,883] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 09:23:41,894] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 09:23:41,894] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:23:41,894] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:23:41,895] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:23:41,896] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:23:41,896] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:31:03,226] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 09:31:03,229] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 09:31:03,229] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 09:31:03,281] [INFO] [latency_tracker:30] - [test_cm] execution time: 51.46 ms
+[2026-06-18 09:31:03,313] [INFO] [latency_tracker:30] - [test_decorator] execution time: 31.36 ms
+[2026-06-18 09:31:03,319] [INFO] [database.connection:35] - Configuring SQLite database engine...
+[2026-06-18 09:31:03,325] [INFO] [database.connection:72] - Database connection factory initialized successfully.
+[2026-06-18 09:31:03,329] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 09:31:03,329] [INFO] [query_tracker:35] - Query Telemetry: ID=q_be37b9660b48 | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 09:31:03,597] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 09:31:03,613] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:31:03,745] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:31:04,018] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:31:04,020] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:31:04,020] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:31:04,020] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:31:04,074] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:31:04,074] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:31:04,097] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:31:04,098] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:31:04,098] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:31:04,098] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 09:31:04,098] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=49678bda-39c1-4b5b-bbfa-c10b4cef5d73,id=49678bda-39c1-4b5b-bbfa-c10b4cef5d73
+[2026-06-18 09:31:04,151] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:31:04,151] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:31:04,388] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 09:31:04,395] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 09:31:04,395] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:31:04,395] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:31:04,396] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:31:04,396] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:31:04,396] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:31:54,468] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 09:31:54,471] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 09:31:54,471] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 09:31:54,526] [INFO] [latency_tracker:30] - [test_cm] execution time: 53.99 ms
+[2026-06-18 09:31:54,557] [INFO] [latency_tracker:30] - [test_decorator] execution time: 31.48 ms
+[2026-06-18 09:31:54,566] [INFO] [database.connection:35] - Configuring SQLite database engine...
+[2026-06-18 09:31:54,573] [INFO] [database.connection:72] - Database connection factory initialized successfully.
+[2026-06-18 09:31:54,577] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 09:31:54,580] [INFO] [query_tracker:35] - Query Telemetry: ID=q_652e93839054 | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 09:31:54,853] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 09:31:54,868] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:31:54,964] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:31:55,236] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:31:55,238] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:31:55,238] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:31:55,238] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:31:55,293] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:31:55,294] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:31:55,313] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:31:55,314] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:31:55,314] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:31:55,315] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 09:31:55,316] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=8dfd2f98-96d4-44d1-b52a-37c95fe88f94,id=8dfd2f98-96d4-44d1-b52a-37c95fe88f94
+[2026-06-18 09:31:55,367] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:31:55,367] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:31:55,612] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 09:31:55,621] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 09:31:55,621] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:31:55,621] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:31:55,622] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:31:55,623] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:31:55,623] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:32:12,315] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 09:32:12,318] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 09:32:12,318] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 09:32:12,369] [INFO] [latency_tracker:30] - [test_cm] execution time: 50.10 ms
+[2026-06-18 09:32:12,403] [INFO] [latency_tracker:30] - [test_decorator] execution time: 33.47 ms
+[2026-06-18 09:32:12,409] [INFO] [database.connection:35] - Configuring SQLite database engine...
+[2026-06-18 09:32:12,416] [INFO] [database.connection:72] - Database connection factory initialized successfully.
+[2026-06-18 09:32:12,419] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 09:32:12,419] [INFO] [query_tracker:35] - Query Telemetry: ID=q_cd051875493a | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 09:32:12,707] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 09:32:12,718] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:32:12,803] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:32:13,074] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:32:13,075] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:32:13,075] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:32:13,076] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:32:13,130] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:32:13,130] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:32:13,159] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:32:13,160] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:32:13,160] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:32:13,160] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 09:32:13,161] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=19148ba0-a5a9-4ab1-a360-c7f8a8bde9fe,id=19148ba0-a5a9-4ab1-a360-c7f8a8bde9fe
+[2026-06-18 09:32:13,214] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:32:13,214] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:32:13,556] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 09:32:13,571] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 09:32:13,571] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:32:13,571] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:32:13,572] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:32:13,572] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:32:13,572] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:40:55,568] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 09:40:55,571] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 09:40:55,571] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 09:40:55,626] [INFO] [latency_tracker:30] - [test_cm] execution time: 54.98 ms
+[2026-06-18 09:40:55,661] [INFO] [latency_tracker:30] - [test_decorator] execution time: 34.51 ms
+[2026-06-18 09:40:55,667] [INFO] [database.connection:35] - Configuring SQLite database engine...
+[2026-06-18 09:40:55,675] [INFO] [database.connection:72] - Database connection factory initialized successfully.
+[2026-06-18 09:40:55,678] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 09:40:55,678] [INFO] [query_tracker:35] - Query Telemetry: ID=q_77afdf9ac2ff | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 09:40:55,931] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 09:40:55,948] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:40:56,055] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:40:56,331] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:40:56,333] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:40:56,333] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:40:56,333] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:40:56,385] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:40:56,386] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:40:56,416] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:40:56,417] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:40:56,417] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:40:56,417] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 09:40:56,418] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=439f4a20-eb8a-47e7-9e13-a2ea8d5200d2,id=439f4a20-eb8a-47e7-9e13-a2ea8d5200d2
+[2026-06-18 09:40:56,470] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:40:56,470] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:40:57,019] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 09:40:57,028] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 09:40:57,028] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:40:57,028] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:40:57,029] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:40:57,029] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:40:57,029] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:53:48,012] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 09:53:48,014] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 09:53:48,014] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 09:53:48,068] [INFO] [latency_tracker:30] - [test_cm] execution time: 53.90 ms
+[2026-06-18 09:53:48,103] [INFO] [latency_tracker:30] - [test_decorator] execution time: 34.74 ms
+[2026-06-18 09:53:48,111] [INFO] [database.connection:35] - Configuring SQLite database engine...
+[2026-06-18 09:53:48,119] [INFO] [database.connection:72] - Database connection factory initialized successfully.
+[2026-06-18 09:53:48,122] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 09:53:48,122] [INFO] [query_tracker:35] - Query Telemetry: ID=q_1564058a2377 | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 09:53:48,378] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 09:53:48,384] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:53:48,477] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 09:53:48,753] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:53:48,755] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:53:48,755] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:53:48,755] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:53:48,807] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:53:48,807] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:53:48,827] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 09:53:48,827] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 09:53:48,827] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 09:53:48,827] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 09:53:48,828] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=82b6ac4d-48d3-4456-92f2-e6e83135f4b8,id=82b6ac4d-48d3-4456-92f2-e6e83135f4b8
+[2026-06-18 09:53:48,882] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 09:53:48,882] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 09:53:49,205] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 09:53:49,213] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 09:53:49,213] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 09:53:49,213] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:53:49,214] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:53:49,215] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 09:53:49,215] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 10:20:57,165] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 10:20:57,167] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 10:20:57,167] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 10:20:57,223] [INFO] [latency_tracker:30] - [test_cm] execution time: 55.02 ms
+[2026-06-18 10:20:57,254] [INFO] [latency_tracker:30] - [test_decorator] execution time: 30.83 ms
+[2026-06-18 10:20:57,260] [INFO] [database.connection:35] - Configuring SQLite database engine...
+[2026-06-18 10:20:57,268] [INFO] [database.connection:72] - Database connection factory initialized successfully.
+[2026-06-18 10:20:57,271] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 10:20:57,271] [INFO] [query_tracker:35] - Query Telemetry: ID=q_665a20517f21 | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 10:20:57,496] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 10:20:57,554] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 10:20:57,587] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 10:20:57,984] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 10:20:57,984] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 10:20:57,987] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 10:20:57,987] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 10:20:57,987] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 10:20:57,988] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 10:20:57,988] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 10:20:57,988] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 10:20:57,989] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=5bc9f3f7-8d73-424a-9750-be1710c13fb6,id=5bc9f3f7-8d73-424a-9750-be1710c13fb6
+[2026-06-18 10:20:58,041] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 10:20:58,041] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 10:20:58,041] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 10:20:58,041] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 10:20:58,392] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 10:20:58,406] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 10:20:58,406] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 10:20:58,406] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 10:20:58,407] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 10:20:58,408] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 10:20:58,408] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 11:10:24,553] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 11:10:24,557] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 11:10:24,557] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 11:10:24,609] [INFO] [latency_tracker:30] - [test_cm] execution time: 51.85 ms
+[2026-06-18 11:10:24,642] [INFO] [latency_tracker:30] - [test_decorator] execution time: 33.17 ms
+[2026-06-18 11:10:24,649] [INFO] [database.connection:35] - Configuring SQLite database engine...
+[2026-06-18 11:10:24,656] [INFO] [database.connection:72] - Database connection factory initialized successfully.
+[2026-06-18 11:10:24,659] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 11:10:24,659] [INFO] [query_tracker:35] - Query Telemetry: ID=q_d4d76a824d57 | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 11:10:24,883] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 11:10:24,903] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 11:10:24,999] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 11:10:25,295] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 11:10:25,297] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 11:10:25,297] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 11:10:25,297] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 11:10:25,351] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 11:10:25,351] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 11:10:25,351] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 11:10:25,352] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 11:10:25,352] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=fe06a3b0-2e8e-42a0-8ede-f5e778f4f700,id=fe06a3b0-2e8e-42a0-8ede-f5e778f4f700
+[2026-06-18 11:10:25,352] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 11:10:25,353] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 11:10:25,406] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 11:10:25,406] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 11:10:25,635] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 11:10:25,641] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 11:10:25,641] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 11:10:25,642] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 11:10:25,642] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 11:10:25,643] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 11:10:25,643] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 11:10:48,810] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 11:10:48,813] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 11:10:48,813] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 11:10:48,867] [INFO] [latency_tracker:30] - [test_cm] execution time: 53.59 ms
+[2026-06-18 11:10:48,900] [INFO] [latency_tracker:30] - [test_decorator] execution time: 32.50 ms
+[2026-06-18 11:10:48,906] [INFO] [database.connection:35] - Configuring SQLite database engine...
+[2026-06-18 11:10:48,912] [INFO] [database.connection:72] - Database connection factory initialized successfully.
+[2026-06-18 11:10:48,915] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 11:10:48,915] [INFO] [query_tracker:35] - Query Telemetry: ID=q_4c29559c3c89 | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 11:10:49,138] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 11:10:49,147] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 11:10:49,228] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 11:10:49,528] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 11:10:49,530] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 11:10:49,531] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 11:10:49,531] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 11:10:49,583] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 11:10:49,584] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 11:10:49,648] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 11:10:49,649] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 11:10:49,649] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 11:10:49,649] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 11:10:49,650] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=f9bb1e3d-077c-47b2-8c76-eb7456e50bc1,id=f9bb1e3d-077c-47b2-8c76-eb7456e50bc1
+[2026-06-18 11:10:49,704] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 11:10:49,705] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 11:10:49,963] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 11:10:49,977] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 11:10:49,977] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 11:10:49,977] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 11:10:49,978] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 11:10:49,979] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 11:10:49,980] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 11:24:59,925] [INFO] [root:57] - Logging initialized with level INFO. Logs saved to logs/app.log
+[2026-06-18 11:24:59,928] [INFO] [root:57] - Logging initialized with level DEBUG. Logs saved to logs/app.log
+[2026-06-18 11:24:59,928] [INFO] [root:40] - Test log entry from diagnostic suite.
+[2026-06-18 11:24:59,983] [INFO] [latency_tracker:30] - [test_cm] execution time: 54.69 ms
+[2026-06-18 11:25:00,018] [INFO] [latency_tracker:30] - [test_decorator] execution time: 35.02 ms
+[2026-06-18 11:25:00,026] [INFO] [database.connection:35] - Configuring SQLite database engine...
+[2026-06-18 11:25:00,034] [INFO] [database.connection:72] - Database connection factory initialized successfully.
+[2026-06-18 11:25:00,037] [INFO] [indexing.postgres_store:74] - Relational database tables checked/created successfully.
+[2026-06-18 11:25:00,038] [INFO] [query_tracker:35] - Query Telemetry: ID=q_52652e154f85 | Query='What is the optimal batch size for training?...' | Latency=120.50ms | Tokens=250 | Refused=False | NLI=True
+[2026-06-18 11:25:00,292] [INFO] [langsmith_tracker:57] - LangSmith Tracing configured successfully for project 'research-intelligence-system'.
+[2026-06-18 11:25:00,315] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 11:25:00,383] [DEBUG] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): api.smith.langchain.com:443
+[2026-06-18 11:25:00,668] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 11:25:00,670] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 11:25:00,670] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 11:25:00,670] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 11:25:00,722] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 11:25:00,722] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 11:25:00,734] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 1240
+[2026-06-18 11:25:00,735] [DEBUG] [langsmith.client:717] - Tracing control thread func compress parallel called
+[2026-06-18 11:25:00,735] [DEBUG] [langsmith.client:625] - Main thread is dead, stopping tracing thread
+[2026-06-18 11:25:00,735] [DEBUG] [langsmith.client:704] - LangSmith-only cleanup
+[2026-06-18 11:25:00,736] [DEBUG] [langsmith.client:2249] - Sending multipart request to https://api.smith.langchain.com with context: trace=acefa7da-c1b7-470c-b075-8b927d6f21ad,id=acefa7da-c1b7-470c-b075-8b927d6f21ad
+[2026-06-18 11:25:00,787] [DEBUG] [langsmith.client:748] - Main thread is dead, stopping compression thread
+[2026-06-18 11:25:00,787] [DEBUG] [langsmith.client:853] - Compressed traces control thread is shutting down
+[2026-06-18 11:25:01,032] [DEBUG] [urllib3.connectionpool:544] - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 403 22
+[2026-06-18 11:25:01,042] [WARNING] [langsmith.client:2282] - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[2026-06-18 11:25:01,043] [DEBUG] [langsmith.client:708] - Tracing control thread is shutting down
+[2026-06-18 11:25:01,043] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 11:25:01,044] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 11:25:01,044] [DEBUG] [langsmith.client:266] - Closing Client.session
+[2026-06-18 11:25:01,044] [DEBUG] [langsmith.client:266] - Closing Client.session

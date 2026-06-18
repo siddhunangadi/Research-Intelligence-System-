@@ -1,0 +1,38 @@
+[project]
+name = "research-intelligence-system"
+version = "1.0.0"
+description = "Citation-Grounded Research Assistant with Hybrid Retrieval, Reranking, and Automated Evaluation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pymupdf",
+    "pymupdf4llm",
+    "docling",
+    "chromadb",
+    "psycopg2-binary",
+    "sqlalchemy",
+    "transformers",
+    "torch",
+    "ragas",
+    "fastapi",
+    "uvicorn",
+    "pyyaml",
+    "pytest",
+    "tiktoken",
+    "pydantic",
+    "streamlit"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
+[tool.black]
+line-length = 100
+target-version = ['py310']
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+select = ["E", "F", "W", "I"]
+ignore = []
