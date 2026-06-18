@@ -1,4 +1,4 @@
-# [Research Intelligence System](https://research-intelligence-system.streamlit.app/)
+# [Research Intelligence System](https://rb4gk9g2mubotofv8njeab.streamlit.app/)
 ## Citation-Grounded Research Assistant with Hybrid Retrieval, Reranking, and Automated Evaluation
 
 ---
